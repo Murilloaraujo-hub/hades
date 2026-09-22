@@ -1,0 +1,2 @@
+@keyframes floatIn{from{opacity:0;transform:translateY(12px) scale(.98)}to{opacity:1;transform:none}}
+.menu-panel{animation:floatIn .22s ease-out}

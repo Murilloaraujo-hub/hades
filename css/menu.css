@@ -1,0 +1,8 @@
+.menu-screen{position:absolute;inset:0;display:grid;place-items:center;pointer-events:auto;background:linear-gradient(180deg,rgba(4,6,12,.38),rgba(4,6,12,.76))}
+.menu-panel{width:min(92vw,620px);padding:30px;border:1px solid var(--line);border-radius:24px;background:rgba(10,13,23,.92);box-shadow:0 24px 80px rgba(0,0,0,.5)}
+.menu-panel h1{margin:0 0 8px;font-size:clamp(32px,6vw,64px);letter-spacing:.08em}
+.menu-panel p{color:var(--muted);line-height:1.5}
+.menu-grid{display:grid;gap:10px;margin-top:20px}
+.menu-button{cursor:pointer;border:1px solid rgba(255,255,255,.14);background:linear-gradient(180deg,#252c43,#171d2f);color:#fff;padding:13px 16px;border-radius:14px;font-weight:700;letter-spacing:.04em;transition:transform .12s ease,border-color .12s ease,filter .12s ease}
+.menu-button:hover{transform:translateY(-1px);border-color:rgba(122,225,255,.6);filter:brightness(1.08)}
+.menu-button.danger{border-color:rgba(255,101,120,.35)}
