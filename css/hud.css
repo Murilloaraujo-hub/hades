@@ -1,3 +1,0 @@
-.hud-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:0 14px 40px rgba(0,0,0,.28);backdrop-filter:blur(10px)}
-.hud-bar{height:12px;background:#1c2232;border-radius:999px;overflow:hidden;border:1px solid rgba(255,255,255,.1)}
-.hud-fill{height:100%;transition:width .12s linear}
